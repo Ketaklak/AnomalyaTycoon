@@ -1,6 +1,4 @@
-from pathlib import Path
-
-todo = """# ✅ Eco-Tycoon — TODO
+# ✅ Eco-Tycoon — TODO
 
 > Liste de tâches priorisées pour passer d’un prototype jouable à un tycoon multi propre. Coche ce que tu termines 😉
 
@@ -105,3 +103,13 @@ todo = """# ✅ Eco-Tycoon — TODO
 ---
 
 ## 🗺️ Organisation hiérarchie (rappel)
+```
+Tycoon_1
+ ├─ Items
+ │   ├─ TycoonDropper_Acier   (Purchasable=true, Machine, etc.)
+ │   ├─ TycoonDropper_Cuivre  (Purchasable=true, Machine, etc.)
+ │   └─ ConveyorDecor         (décor permanent + CollectorHitbox)
+ └─ Buttons
+     ├─ Btn_TycoonDropper_Acier (Part+Prompt → ItemId="TycoonDropper_Acier", Cost=...)
+     └─ Btn_TycoonDropper_Cuivre
+```
