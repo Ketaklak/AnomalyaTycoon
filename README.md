@@ -5,8 +5,6 @@
 ---
 
 ## 🔴 PRIORITÉ 0 — Bloquants (à faire maintenant)
-- [ ] **Séparer décor & achetables** dans `Items/` (ou marquer `Purchasable=true` uniquement sur les items achetables).
-- [ ] Vérifier que **ConveyorDecor** (conveyor + crate + `CollectorHitbox`) est **hors** du modèle achetable.
 - [ ] Sur chaque bouton d’achat : `ItemId` (nom exact de l’item) + `Cost` (number) + `ProximityPrompt` actif.
 - [ ] Sur chaque *dropper* : attribuer `OwnerUserId` **à l’achat** (déjà géré par `onUnlocked` → tag `Machine`).
 - [ ] Dans `DropperSystem`: s’assurer que **PayoutMode** est **cohérent** :
